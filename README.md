@@ -6,7 +6,7 @@ Linux
 
 Dipendenze: OpenGL, ALSA e GNU C++ Compiler. Scaricare BAS.I.LI.CO. ed eseguire, da riga di comando o da interfaccia grafica di sistema, il file denominato basilico assicurandosi che il file sia con permessi di esecuzione.
 
-Windows (per quando sarà pronto per Windows)
+Windows (ancora non pronto)
 
 Scaricare BAS.I.LI.CO. ed eseguire, da riga di comando o da interfaccia grafica di sistema, il file denominato basilico.exe assicurandosi che il file sia con permessi di esecuzione. Assicurarsi di estrarre il contenuto del pacchetto in una cartella con permessi di scrittura completi (in caso contrario potrebbero verificarsi errori dell'Ambiente di Sviluppo o di compilazione). Si consiglia di aggiungere la cartella BAS.I.LI.CO. alla lista bianca del tuo antivirus.
 

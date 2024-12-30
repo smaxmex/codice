@@ -1,1 +1,1 @@
-__STRINGA_K->len=0;
+__STRINGA_N->len=0;

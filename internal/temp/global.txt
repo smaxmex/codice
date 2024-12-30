@@ -1,4 +1,4 @@
-qbs *__STRINGA_K=NULL;
+qbs *__STRINGA_N=NULL;
 int32 console=0;
 int32 screen_hide_startup=0;
 int32 asserts=0;

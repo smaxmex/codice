@@ -1,228 +1,227 @@
-
 2
-PSC
-STAMPA "[Esc] esce dal programma, [m] melodia, [q] ricomincia, [Maiusc] per il Do successivo"
-STAMPA " note:"
-STAMPA "  w e   t y u"
-STAMPA " a s d f g h j k"
-STAMPA ""
+Psc
+Stampa "[Esc] esce dal programma, [m] melodia, [q] ricomincia, [Maiusc] per il Doa"
+Stampa " note:"
+Stampa "  w e   t y u"
+Stampa " a s d f g h j k"
+Stampa ""
 
 6
-n$ = TASTO$
-SE n$ = "j" ALLORA si (1)
-SE n$ = "J" ALLORA si2 (1)
+n$ = Tasto$
+Se n$ = "j" Allora si (1)
 
+Se n$ = "u" Allora lad (1)
 
-SE n$ = "u" ALLORA lad (1)
+Se n$ = "h" Allora la (1)
 
-SE n$ = "h" ALLORA la (1)
+Se n$ = "y" Allora sold (1)
 
-SE n$ = "y" ALLORA sold (1)
+Se n$ = "g" Allora sol (1)
 
-SE n$ = "g" ALLORA sol (1)
+Se n$ = "t" Allora fad (1)
 
-SE n$ = "t" ALLORA fad (1)
+Se n$ = "f" Allora fa (1)
 
-SE n$ = "f" ALLORA fa (1)
+Se n$ = "d" Allora mi (1)
 
-SE n$ = "d" ALLORA mi (1)
+Se n$ = "e" Allora red (1)
 
-SE n$ = "e" ALLORA red (1)
-SE n$ = "E" ALLORA red2 (1)
+Se n$ = "s" Allora re (1)
 
-SE n$ = "s" ALLORA re (1)
-SE n$ = "S" ALLORA re2 (1)
+Se n$ = "w" Allora dod (1)
 
-SE n$ = "w" ALLORA dod (1)
-SE n$ = "W" ALLORA dod2 (1)
+Se n$ = "a" Allora do (1)
 
-SE n$ = "a" ALLORA do (1)
-SE n$ = "A" ALLORA do2 (1)
+Se n$ = "J" Allora si2 (1)
 
+Se n$ = "U" Allora lad2 (1)
 
-SE n$ = "U" ALLORA lad2 (1)
+Se n$ = "H" Allora la2 (1)
 
-SE n$ = "H" ALLORA la2 (1)
+Se n$ = "Y" Allora sold2 (1)
 
-SE n$ = "Y" ALLORA sold2 (1)
+Se n$ = "G" Allora sol2 (1)
 
-SE n$ = "G" ALLORA sol2 (1)
+Se n$ = "T" Allora fad2 (1)
 
-SE n$ = "T" ALLORA fad2 (1)
+Se n$ = "F" Allora fa2 (1)
 
-SE n$ = "F" ALLORA fa2 (1)
+Se n$ = "D" Allora mi2 (1)
 
-SE n$ = "D" ALLORA mi2 (1)
+Se n$ = "E" Allora red2 (1)
 
+Se n$ = "S" Allora re2 (1)
 
+Se n$ = "W" Allora dod2 (1)
 
-
-
-
+Se n$ = "A" Allora do2 (1)
 
 
 
-SE n$ = "q" ALLORA
-    VAI 2
-FINE SE
 
 
 
-SE n$ = "m" ALLORA
+Se n$ = "q" Allora
+    Vai 2
+Fine Se
+
+
+
+Se n$ = "m" Allora
 
     sol (4)
     si (8)
     lad (4)
 
-    DORMI 1
+    Dormi 1
     lad (8)
     la (4)
 
-    DORMI 1
+    Dormi 1
     sol (4)
     la (8)
     sold (4)
 
-    DORMI 1
+    Dormi 1
     la (4)
     sold (8)
     sol (4)
 
 
-FINE SE
+Fine Se
 
-SE n$ = CAR$(27) ALLORA
-    SISTEMA
-FINE SE
+Se n$ = Car$(27) Allora
+    Sistema
+Fine Se
 
-NOTA Do4 261.63
-NOTA Do#4/Reb4
-NOTA Re4 293.66
-NOTA Re#4/Mib4
-NOTA Mi4 329.63
-NOTA Fa4 349.23
+Nota Do4 261.63
+Nota Do#4/Reb4
+Nota Re4 293.66
+Nota Re#4/Mib4
+Nota Mi4 329.63
+Nota Fa4 349.23
 
-VAI 6
-
-
-
-SUB do2 (d)
-    SUONO 523.25, d
-    STAMPA "Do ";
-FINE SUB
-
-SUB dod2 (d)
-    SUONO 277.18, d
-    STAMPA "do# ";
-FINE SUB
-
-SUB re2 (d)
-    SUONO 293.66, d
-    STAMPA "re ";
-FINE SUB
-
-SUB red2 (d)
-    SUONO 311.13, d
-    STAMPA "re# ";
-FINE SUB
-
-SUB mi2 (d)
-    SUONO 329.63, d
-    STAMPA "mi ";
-FINE SUB
-
-SUB fa2 (d)
-    SUONO 349.23, d
-    STAMPA "fa ";
-FINE SUB
-
-SUB fad2 (d)
-    SUONO 369.99, d
-    STAMPA "fa# ";
-FINE SUB
-
-SUB sol2 (d)
-    SUONO 392, d
-    STAMPA "sol ";
-FINE SUB
-
-SUB sold2 (d)
-    SUONO 415.30, d
-    STAMPA "sol# ";
-FINE SUB
-
-SUB la2 (d)
-    SUONO 440.00, d
-    STAMPA "la ";
-FINE SUB
-
-SUB lad2 (d)
-    SUONO 466.16, d
-    STAMPA "la# ";
-FINE SUB
-
-SUB si2 (d)
-    SUONO 493.88, d
-    STAMPA "si ";
-FINE SUB
+Vai 6
 
 
-SUB do (d)
-    SUONO 261.63, d
-    STAMPA "do ";
-FINE SUB
 
-SUB dod (d)
-    SUONO 277.18, d
-    STAMPA "do# ";
-FINE SUB
+Sub do2 (d)
+    Suono 523.25, d
+    Stampa "Do ";
+Fine Sub
 
-SUB re (d)
-    SUONO 293.66, d
-    STAMPA "re ";
-FINE SUB
+Sub dod2 (d)
+    Suono 277.18, d
+    Stampa "do# ";
+Fine Sub
 
-SUB red (d)
-    SUONO 311.13, d
-    STAMPA "re# ";
-FINE SUB
+Sub re2 (d)
+    Suono 293.66, d
+    Stampa "re ";
+Fine Sub
 
-SUB mi (d)
-    SUONO 329.63, d
-    STAMPA "mi ";
-FINE SUB
+Sub red2 (d)
+    Suono 311.13, d
+    Stampa "re# ";
+Fine Sub
 
-SUB fa (d)
-    SUONO 349.23, d
-    STAMPA "fa ";
-FINE SUB
+Sub mi2 (d)
+    Suono 329.63, d
+    Stampa "mi ";
+Fine Sub
 
-SUB fad (d)
-    SUONO 369.99, d
-    STAMPA "fa# ";
-FINE SUB
+Sub fa2 (d)
+    Suono 349.23, d
+    Stampa "fa ";
+Fine Sub
 
-SUB sol (d)
-    SUONO 392, d
-    STAMPA "sol ";
-FINE SUB
+Sub fad2 (d)
+    Suono 369.99, d
+    Stampa "fa# ";
+Fine Sub
 
-SUB sold (d)
-    SUONO 415.30, d
-    STAMPA "sol# ";
-FINE SUB
+Sub sol2 (d)
+    Suono 392, d
+    Stampa "sol ";
+Fine Sub
 
-SUB la (d)
-    SUONO 440.00, d
-    STAMPA "la ";
-FINE SUB
+Sub sold2 (d)
+    Suono 415.30, d
+    Stampa "sol# ";
+Fine Sub
 
-SUB lad (d)
-    SUONO 466.16, d
-    STAMPA "la# ";
-FINE SUB
+Sub la2 (d)
+    Suono 440.00, d
+    Stampa "la ";
+Fine Sub
 
-SUB si (d)
-    SUONO 493.88, d
-    STAMPA "si ";
-FINE SUB
+Sub lad2 (d)
+    Suono 466.16, d
+    Stampa "la# ";
+Fine Sub
+
+Sub si2 (d)
+    Suono 493.88, d
+    Stampa "si ";
+Fine Sub
+
+
+Sub do (d)
+    Suono 261.63, d
+    Stampa "do ";
+Fine Sub
+
+Sub dod (d)
+    Suono 277.18, d
+    Stampa "do# ";
+Fine Sub
+
+Sub re (d)
+    Suono 293.66, d
+    Stampa "re ";
+Fine Sub
+
+Sub red (d)
+    Suono 311.13, d
+    Stampa "re# ";
+Fine Sub
+
+Sub mi (d)
+    Suono 329.63, d
+    Stampa "mi ";
+Fine Sub
+
+Sub fa (d)
+    Suono 349.23, d
+    Stampa "fa ";
+Fine Sub
+
+Sub fad (d)
+    Suono 369.99, d
+    Stampa "fa# ";
+Fine Sub
+
+Sub sol (d)
+    Suono 392, d
+    Stampa "sol ";
+Fine Sub
+
+Sub sold (d)
+    Suono 415.30, d
+    Stampa "sol# ";
+Fine Sub
+
+Sub la (d)
+    Suono 440.00, d
+    Stampa "la ";
+Fine Sub
+
+Sub lad (d)
+    Suono 466.16, d
+    Stampa "la# ";
+Fine Sub
+
+Sub si (d)
+    Suono 493.88, d
+    Stampa "si ";
+Fine Sub

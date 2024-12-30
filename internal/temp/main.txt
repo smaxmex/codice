@@ -1,7 +1,10 @@
 S_0:;
 do{
+qbg_screen( 12 ,NULL,NULL,NULL,NULL,1);
+if(!qbevent)break;evnt(1);}while(r);
+do{
 tqbs=qbs_new(0,0);
-qbs_set(tqbs,qbs_new_txt_len("stella",6));
+qbs_set(tqbs,qbs_new_txt_len("premi wasd per disegnare, p pulisci schermo",43));
 if (new_error) goto skip1;
 makefit(tqbs);
 qbs_print(tqbs,0);
@@ -9,21 +12,56 @@ qbs_print(nothingstring,1);
 skip1:
 qbs_free(tqbs);
 qbs_cleanup(qbs_tmp_base,0);
-if(!qbevent)break;evnt(1);}while(r);
-LABEL_1:;
-last_line=1;
-if(qbevent){evnt(2);r=0;}
+if(!qbevent)break;evnt(2);}while(r);
+LABEL_12:;
+last_line=12;
+if(qbevent){evnt(3);r=0;}
 do{
-qbs_print(qbs_new_txt_len("LAS CRONICAS DE LA GALAXIA MAGICA",33),0);
-qbs_input_variabletypes[1]=ISSTRING;
-qbs_input_variableoffsets[1]=__STRINGA_K;
-qbs_input(1,1);
-if (stop_program) end();
+qbs_set(__STRINGA_N,func_input( 1 ,NULL,0));
 qbs_cleanup(qbs_tmp_base,0);
-if(!qbevent)break;evnt(3);}while(r);
+if(!qbevent)break;evnt(4);}while(r);
+S_4:;
+if ((qbs_cleanup(qbs_tmp_base,qbs_equal(__STRINGA_N,qbs_new_txt_len("w",1))))||new_error){
+if(qbevent){evnt(5);if(r)goto S_4;}
 do{
-goto LABEL_1;
+sub_draw(qbs_new_txt_len("u10",3));
+qbs_cleanup(qbs_tmp_base,0);
 if(!qbevent)break;evnt(5);}while(r);
+}
+S_7:;
+if ((qbs_cleanup(qbs_tmp_base,qbs_equal(__STRINGA_N,qbs_new_txt_len("a",1))))||new_error){
+if(qbevent){evnt(7);if(r)goto S_7;}
+do{
+sub_draw(qbs_new_txt_len("l10",3));
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(7);}while(r);
+}
+S_10:;
+if ((qbs_cleanup(qbs_tmp_base,qbs_equal(__STRINGA_N,qbs_new_txt_len("s",1))))||new_error){
+if(qbevent){evnt(9);if(r)goto S_10;}
+do{
+sub_draw(qbs_new_txt_len("d10",3));
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(9);}while(r);
+}
+S_13:;
+if ((qbs_cleanup(qbs_tmp_base,qbs_equal(__STRINGA_N,qbs_new_txt_len("d",1))))||new_error){
+if(qbevent){evnt(11);if(r)goto S_13;}
+do{
+sub_draw(qbs_new_txt_len("r10",3));
+qbs_cleanup(qbs_tmp_base,0);
+if(!qbevent)break;evnt(11);}while(r);
+}
+S_16:;
+if ((qbs_cleanup(qbs_tmp_base,qbs_equal(__STRINGA_N,qbs_new_txt_len("p",1))))||new_error){
+if(qbevent){evnt(13);if(r)goto S_16;}
+do{
+sub_cls(NULL,NULL,0);
+if(!qbevent)break;evnt(13);}while(r);
+}
+do{
+goto LABEL_12;
+if(!qbevent)break;evnt(17);}while(r);
 sub_end();
 return;
 }

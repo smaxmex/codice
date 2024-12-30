@@ -1,3 +1,5 @@
+![githubstrip](basilico-orizzontale.png)
+
 BAS.I.LI.CO. è un linguaggio di programmazione in italiano che deriva dal BASIC di QB64 per Windows, Linux e MacOS
 
 Installazione

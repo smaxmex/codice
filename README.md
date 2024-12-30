@@ -1,18 +1,14 @@
 ![githubstrip](basilico-orizzontale.png)
 
-BAS.I.LI.CO. è un linguaggio di programmazione in italiano che deriva dal BASIC di QB64 per Windows, Linux e MacOS
-
-Installazione
-
-Scarica il pacchetto appropriato per il tuo sistema operativo
-
-Windows
-
-Assicurati di estrarre il contenuto del pacchetto in una cartella con permessi di scrittura completi (in caso contrario potrebbero verificarsi errori dell'Ambiente di Sviluppo o di compilazione). Si consiglia di aggiungere la cartella BAS.I.LI.CO. alla lista bianca del tuo antivirus.
+BAS.I.LI.CO. è un linguaggio di programmazione in italiano che deriva dal BASIC di QB64 per Windows, Linux e MacOS. Per adesso funziona solo sotto Linux.
 
 Linux
 
-Dipendenze: OpenGL, ALSA e GNU C++ Compiler.
+Dipendenze: OpenGL, ALSA e GNU C++ Compiler. Scarica BAS.I.LI.CO. ed esegui, da riga di comando o da interfaccia grafica di sistema, il file denominato basilico assicurandosi che il file sia con permessi di esecuzione.
+
+Windows (per quando sarà pronto per Windows)
+
+Scarica BAS.I.LI.CO. ed esegui, da riga di comando o da interfaccia grafica di sistema, il file denominato basilico assicurandosi che il file sia con permessi di esecuzione. Assicurati di estrarre il contenuto del pacchetto in una cartella con permessi di scrittura completi (in caso contrario potrebbero verificarsi errori dell'Ambiente di Sviluppo o di compilazione). Si consiglia di aggiungere la cartella BAS.I.LI.CO. alla lista bianca del tuo antivirus.
 
 Uso
 

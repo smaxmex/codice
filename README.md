@@ -12,7 +12,7 @@ Scaricare BAS.I.LI.CO. ed eseguire, da riga di comando o da interfaccia grafica 
 
 Uso
 
-Avviare il file eseguibile basilico per avviare l'Ambiente di Sviluppo, che puoi usare per modificare i tuoi file .BAS. Da lì premere F5 per compilare ed eseguire il tuo codice. Per generare un file binario senza eseguirlo, premi F11. Se non si vuole usare l'Ambiente di Sviluppo Integrato di BAS.I.LI.CO., bensì solo compilare il proprio programma, si può digitare, da riga di comando:
+Avviare il file eseguibile basilico per avviare l'Ambiente di Sviluppo, che si può usare per modificare file .BAS. Da lì premere F5 per compilare ed eseguire il tuo codice. Per generare un file binario senza eseguirlo, premere F11. Se non si vuole usare l'Ambiente di Sviluppo Integrato di BAS.I.LI.CO., bensì solo compilare il proprio programma, si può digitare, da riga di comando:
 
 basilico -c tuoprogramma.bas
 

@@ -26,15 +26,15 @@ Assicurati di estrarre il contenuto del pacchetto in una cartella con permessi d
 
 ### Linux
 
-Dipendenze: OpenGL, ALSA e GNU C++ Compiler.
+Dipendenze: OpenGL, ALSA e GNU C++ Compiler. Oltre alla versione specifica per Linux, la versione di BAS.I.LI.CO. per Windows funziona pure usando WINE, permettendo così di creare facilmente software per Windows anche senza usare tale sistema operativo.
 
 ### MacOS
 
-La cartella per MacOS non è stato ancora predisposta, ma chi vuole può già usare BAS.I.LI.CO., compilandolo dai sorgenti, tramite QB64.
+La cartella per MacOS non è stata ancora predisposta, ma si può già usare BAS.I.LI.CO. compilandolo dai sorgenti, tramite QB64.
 
 ## Uso
 
-Avvia il file eseguibile basilico per avviare l'Ambiente di Sviluppo, che puoi usare per modificare i tuoi file .BAS. Da lì premi F5 per compilare ed eseguire il tuo codice. Per generare un file binario senza eseguirlo, premi F11. Se non vuoi usare l'Ambiente di Sviluppo Integrato di BAS.I.LI.CO., bensì solo compilare il tuo programma, puoi usare le seguenti chiamate della riga di comando:
+Avviare il file eseguibile basilico per avviare l'Ambiente di Sviluppo, che si può usare per modificare i file .BAS. Da lì premere F5 per compilare ed eseguire il codice. Per generare un file binario senza eseguirlo, premere F11. Se non si vuole usare l'Ambiente di Sviluppo Integrato di BAS.I.LI.CO., bensì solo compilare il codice in basilico, si possono usare le seguenti chiamate della riga di comando:
 
 ```bash
 basilico -c tuoprogramma.bas

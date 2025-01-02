@@ -1,3 +1,5 @@
+![githubstrip](basilico-orizzontale.png)
+
 # BAS.I.LI.CO.
 
 

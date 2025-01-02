@@ -12,7 +12,13 @@ L'attuale versione di BAS.I.LI.CO. è la 0.211.1. Lo 0 indica che non è stato l
 
 ## Installazione
 
-Scarica il pacchetto appropriato per il tuo sistema operativo
+Scarica la cartella compressa appropriata per il tuo sistema operativo.
+
+Per Windows:
+https://github.com/smaxmex/basilico/archive/refs/heads/windows.zip
+
+Per Linux:
+https://github.com/smaxmex/basilico/archive/refs/heads/linux.zip
 
 ### Windows
 
@@ -24,7 +30,7 @@ Dipendenze: OpenGL, ALSA e GNU C++ Compiler.
 
 ### MacOS
 
-Il pacchetto per MacOS non è stato ancora predisposto, ma chi vuole può dai sorgenti compilarlo, tramite QB64.
+La cartella per MacOS non è stato ancora predisposta, ma chi vuole può già usare BAS.I.LI.CO., compilandolo dai sorgenti, tramite QB64.
 
 ## Uso
 

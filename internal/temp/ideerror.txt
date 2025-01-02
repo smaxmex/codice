@@ -1,0 +1,54 @@
+01-01-202512:41:07--------------------
+ 62 
+Input past end of file
+ 26321 
+ 14706 
+ide_methods.bas
+01-01-202512:41:18--------------------
+ 5 
+Illegal function call
+ 26321 
+ 11519 
+ide_methods.bas
+01-01-202512:41:20--------------------
+ 5 
+Illegal function call
+ 26321 
+ 11519 
+ide_methods.bas
+01-01-202512:41:21--------------------
+ 5 
+Illegal function call
+ 26321 
+ 11519 
+ide_methods.bas
+01-01-202512:41:24--------------------
+ 5 
+Illegal function call
+ 26321 
+ 11519 
+ide_methods.bas
+01-01-202512:41:25--------------------
+ 5 
+Illegal function call
+ 26321 
+ 11519 
+ide_methods.bas
+01-01-202512:41:25--------------------
+ 5 
+Illegal function call
+ 26321 
+ 11519 
+ide_methods.bas
+01-01-202512:41:25--------------------
+ 5 
+Illegal function call
+ 26321 
+ 11519 
+ide_methods.bas
+01-01-202512:41:26--------------------
+ 5 
+Illegal function call
+ 26321 
+ 11519 
+ide_methods.bas

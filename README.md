@@ -26,11 +26,11 @@ Assicurati di estrarre il contenuto del pacchetto in una cartella con permessi d
 
 ### Linux
 
-Dipendenze: OpenGL, ALSA e GNU C++ Compiler.
+Dipendenze: OpenGL, ALSA e GNU C++ Compiler. Oltre alla versione specifica per Linux, la versione di BAS.I.LI.CO. per Windows funziona pure usando WINE, permettendo così di creare facilmente software per Windows anche senza usare tale sistema operativo.
 
 ### MacOS
 
-La cartella per MacOS non è stata ancora predisposta, ma si può già usare BAS.I.LI.CO., compilandolo dai sorgenti, tramite QB64.
+La cartella per MacOS non è stata ancora predisposta, ma si può già usare BAS.I.LI.CO. compilandolo dai sorgenti, tramite QB64.
 
 ## Uso
 

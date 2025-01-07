@@ -55,3 +55,11 @@ basilico -c tuoprogramma.bas -o nomechevuoidarealtuoprogramma.exe
 ```
 
 Sostituendo -c con -x verrà compilato senza aprire una finestra separata del compilatore
+
+## Programmare è FACILE con BAS.I.LI.CO.
+
+Blog del Corso F.A.C.I.L.E.
+https://corsofacile.blogspot.com
+
+Libro "Programmare è FACILE con BAS.I.LI.CO." (Per adesso solo prefazione e 1° capitolo)
+https://github.com/smaxmex/basilico/blob/windows/Programmare%20%C3%A8%20facile%20con%20BASILICO.pdf

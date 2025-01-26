@@ -60,4 +60,4 @@ Sostituendo -c con -x verrà compilato senza aprire una finestra separata del co
 
 Blog del Corso F.A.C.I.L.E.: https://corsofacile.blogspot.com
 
-Libro (Per adesso solo prefazione e 1° capitolo): https://github.com/smaxmex/basilico/blob/linux/Programmare%20%C3%A8%20facile%20con%20BASILICO.pdf
+Libro (Per adesso solo prefazione e primi due capitoli): https://github.com/smaxmex/basilico/blob/linux/Programmare%20%C3%A8%20facile%20con%20BASILICO.pdf
